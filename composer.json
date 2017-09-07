@@ -1,0 +1,28 @@
+{
+    "name": "devmi/laraconfirm",
+    "description": "Laravel package for signup confirmation",
+    "authors": [
+        {
+            "name": "Miloudi Mohamed",
+            "email": "milou0104@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Devmi\\Laraconfirm\\LaraconfirmServiceProvider"
+            ],
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Devmi\\Laraconfirm\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.5.0",
+        "illuminate/database": ">=5.0",
+        "illuminate/support": ">=5.0",
+        "devmi/laraconfirm": "^1.0"
+    }
+}
