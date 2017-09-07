@@ -7,13 +7,7 @@
             "email": "milou0104@gmail.com"
         }
     ],
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Devmi\\Laraconfirm\\LaraconfirmServiceProvider"
-            ],
-        }
-    },
+
     "autoload": {
         "psr-4": {
             "Devmi\\Laraconfirm\\": "src/"
