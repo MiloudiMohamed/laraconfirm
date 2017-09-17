@@ -11,7 +11,7 @@
         "laravel": {
             "providers": [
                 "Devmi\\Laraconfirm\\LaraconfirmServiceProvider"
-            ],
+            ]
         }
     },
     "autoload": {
@@ -22,7 +22,6 @@
     "require": {
         "php": ">=5.5.0",
         "illuminate/database": ">=5.0",
-        "illuminate/support": ">=5.0",
-        "devmi/laraconfirm": "^1.0"
+        "illuminate/support": ">=5.0"
     }
 }
