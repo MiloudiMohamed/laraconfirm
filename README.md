@@ -11,6 +11,7 @@ composer require devmi/laraconfirm
 ```
 
 Next, if using Laravel 5, include the service provider within your `config/app.php` file.
+(ignore this step if you using Laravel >= 5.5)
 
 ```php
 'providers' => [

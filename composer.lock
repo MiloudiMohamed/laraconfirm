@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0d5455e303a4d3eacbef18e9d22e079b",
+    "content-hash": "cc8b3ec535a9deba5d95ba208033bc0a",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -488,7 +488,7 @@
         },
         {
             "name": "symfony/translation",
-            "version": "v3.3.8",
+            "version": "v3.3.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
