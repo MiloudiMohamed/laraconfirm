@@ -14,7 +14,11 @@ trait LaraconfirmLoginTrait
     {
         if (EmailConfirmations::whereEmail($user->email)->exists()) {
             auth()->logout();
-            return back()->with('laraconfirmAlert', 'Please confirm your email address before you login.');
+            return back()->with(
+                'laraconfirmAlert',
+                'Please confirm your email address before you login.
+                <a href=' . route('email.confirmation.resend') . '>resend email</a>'
+            );
         }
     }
 }

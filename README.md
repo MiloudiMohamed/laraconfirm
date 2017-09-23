@@ -1,6 +1,6 @@
 # Easy Email Confirmation for Your Laravel App
 
-  This composer package offers an easy way to add confiirmation email step for your Laravel applications.
+  This composer package offers an easy way to add confirmation email step for your Laravel applications.
 
 ## Installation
 
@@ -54,8 +54,8 @@ Finally, to get a nice feedback message add this code to you login page
 // resources\views\auth\login.blade.php
 
 @if (session('laraconfirmAlert'))
-  <div class="alert alert-success">
-    {{ session('laraconfirmAlert') }}
+  <div class="alert alert-info">
+    {!! session('laraconfirmAlert') !!}
   </div>
 @endif
 // above the login form or anywhere you want

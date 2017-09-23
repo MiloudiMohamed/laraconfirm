@@ -5,7 +5,7 @@
 By clicking on the following link, you are confirming your email address.
 
 @component('mail::button', ['url' => config('app.url') . '/' . $email . '/confirmation/' . $token ])
-Email confirmation
+Confirm
 @endcomponent
 
 Thanks,<br>

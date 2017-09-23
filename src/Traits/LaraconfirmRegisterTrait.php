@@ -19,7 +19,10 @@ trait LaraconfirmRegisterTrait
             $this->handle($user->email);
         }
 
-        return redirect('/login')->with('laraconfirmAlert', 'We\'ve sent you a confirmation email at: ' . $user->email);
+        return redirect('/login')->with(
+            'laraconfirmAlert', 'We\'ve sent you a confirmation email at: <strong> ' . $user->email . '
+            </strong>, <a href=' . route('email.confirmation.resend') . '>resend?</a>'
+        );
     }
 
     public function handle($email)
