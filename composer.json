@@ -1,6 +1,8 @@
 {
     "name": "devmi/laraconfirm",
     "description": "Laravel package for signup confirmation",
+    "keywords": ["laravel", "email", "confirmation"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Miloudi Mohamed",
